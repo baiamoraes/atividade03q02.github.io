@@ -1,0 +1,65 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #D9CDF7;
+}
+
+.text {
+  text-align: right;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+}
+
+.rotate-button,
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFC0CB;
+  color: black;
+  cursor: pointer;
+}
+
+.gif {
+  width: 300px;
+  height: 200px;
+}
+
+.sofacodigo {
+  font-size: 14px;
+  text-align: left;
+}
+
+.sofapreco {
+  font-size: 14px;
+  text-align: left;
+}
+.adicionar {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFC0CB;
+  color: black;
+  cursor: pointer;
+  text-align: left;
+}
+
+.adicionar-container {
+  text-align: left;
+}
+
+.adicionar:hover {
+  background-color: #FF69B4;
+  color: white;
+}
